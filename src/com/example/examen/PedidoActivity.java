@@ -46,8 +46,6 @@ public class PedidoActivity extends Activity {
                      Toast.makeText(this, "Complete el formulario antes de guardar", Toast.LENGTH_LONG).show();
                      return;
              }
-             Intent app = new Intent(this, ApplicationActivity.class);
-		Toast.makeText(this, "PEDIDO REALIZADO CORRECTAMENTE", Toast.LENGTH_LONG).show();
-		this.startActivity(app);
+             
     	 }
      }
