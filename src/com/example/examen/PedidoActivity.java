@@ -2,6 +2,7 @@ package com.example.examen;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
@@ -46,6 +47,8 @@ public class PedidoActivity extends Activity {
                      Toast.makeText(this, "Complete el formulario antes de guardar", Toast.LENGTH_LONG).show();
                      return;
              }
-             
+             Intent app = new Intent(this, ApplicationActivity.class);
+     		Toast.makeText(this, "PEDIDO REALIZADO CORRECTAMENTE", Toast.LENGTH_LONG).show();
+     		this.startActivity(app);
     	 }
      }
