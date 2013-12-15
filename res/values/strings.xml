@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Examen</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="background"></string>
+
+    <!-- TITLE -->
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Registracion</string>
+    <string name="title_activity_application">Home</string>
+    <string name="title_activity_libro">Libro</string>
+    <!-- LABELS -->
+    <string name="name_label">Nombre</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Contraseña</string>
+    <string name="password_confirmation_label">Confirme Contraseña</string>
+    <string name="welcome_label">Bienvenido</string>
+
+    <!-- BUTTONS -->
+    <string name="register_button_label">Registro</string>
+    <string name="login_button_label">Login</string>
+    <string name="logout_button_label">Logout</string>
+    <string name="profile_button_label">Perfil</string>
+    <string name="Lista">Crear Lista de Libros</string>
+    <string name="title_activity_app2">APP2Activity</string>
+    <string name="tituloLibro">Titulo</string>
+    <string name="author">Author</string>
+    <string name="isbn">ISBN</string>
+    <string name="guardar">Guardar</string>
+    <string name="add">Agregar Libros</string>
+    <string name="title_activity_app3">APP3Activity</string>
+    <string name="deleteButton">Delete</string>
+    <string name="title_activity_libreria">LibreriaActivity</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="logout">Salir!</string>
+    <string name="profile">Profile</string>
+    <string name="pregunta_registro">Frecuencia de Lectura en su vida</string>
+    <string name="pregunta_registro2">Expectativas de Compra-Venta de Libro</string>
+    <string name="sexo">Seleccione Sexo</string>
+    <string name="sexo1">Masculino</string>
+    <string name="sexo2">Femenino</string>
+    <string name="settings_letra">Ayudanos</string>
+    <string name="title_activity_ajustes">AjustesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="comentarios_ajustes">Comentarios</string>
+    <string name="sugerencias_ajustes">Sugerencias</string>
+    <string name="reclamos_ajustes">Reclamos</string>
+    <string name="enviar_formulario">Confirmation</string>
+     <string name="enviar_formulario2">SEND</string>
+    <string name="title_activity_ajustes_activity2">AjustesActivity2</string>
+    <string name="title_activity_pedido">PedidoActivity</string>
+      <string name="pedir_boton">Realizar</string>
+
+</resources>

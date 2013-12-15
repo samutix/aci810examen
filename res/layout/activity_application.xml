@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/silver"
+    android:gravity="center_horizontal"
+    tools:context=".ApplicationActivity" >
+    
+	<TextView
+	    android:id="@+id/nameTextViewField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/profileButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/nameTextViewField"
+           android:layout_marginRight="16dp"
+           android:layout_toLeftOf="@+id/nameTextViewField"
+           android:onClick="onProfileButtonClicked"
+           android:text="@string/profile_button_label" />
+
+       <Button
+           android:id="@+id/logoutButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/button1"
+           android:layout_alignTop="@+id/nameTextViewField"
+           android:onClick="onLogoutButtonClicked"
+           android:text="@string/logout_button_label" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="38dp"
+           android:onClick="Comprar"
+           android:text="@string/Lista" />
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_alignLeft="@+id/nameTextViewField"
+           android:layout_below="@+id/profileButton"
+           android:layout_marginTop="65dp"
+           android:contentDescription="@string/background"
+           android:src="@drawable/ic_libro" />
+
+       <Button
+           android:id="@+id/Button01"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/imageView1"
+           android:layout_toRightOf="@+id/nameTextViewField"
+           android:onClick="onSettings"
+           android:text="@string/settings_letra" />
+
+</RelativeLayout>
